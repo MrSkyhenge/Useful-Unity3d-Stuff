@@ -7,7 +7,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class Footsteps : MonoBehaviour {
+public class RandomFootsteps : MonoBehaviour {
 
 	public AudioClip[] footsteps;
 	public float nextFoot;
