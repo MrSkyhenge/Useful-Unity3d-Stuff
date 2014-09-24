@@ -4,7 +4,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class ClickCheckTag : MonoBehaviour {
+public class ClickCheckByTag : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update(){
