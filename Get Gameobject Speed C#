@@ -1,0 +1,17 @@
+// Get the current speed of the gameobject this script is attached to. Originally posted
+// at Unity Answers.
+
+using UnityEngine;
+using System.Collections;
+ 
+public class GetSpeed : MonoBehaviour
+{
+	private Vector3 previousPosition;
+	private float curSpeed; //Current speed of gameobject
+	
+	void Update() {
+		Vector3 curMove = transform.position - previousPosition;
+		curSpeed = curMove.magnitude / Time.deltaTime;
+		previousPosition = transform.position;
+	}
+}
