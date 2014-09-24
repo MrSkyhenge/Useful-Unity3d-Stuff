@@ -7,7 +7,7 @@ using System.Collections;
 // Require a character controller to be attached to the same game object
 [RequireComponent(typeof (CharacterController))]
  
-public class PlayerMovement : MonoBehaviour {
+public class ThirdPersonMovement : MonoBehaviour {
  
     public float rotationDamping = 20f;
     public float runSpeed = 10f;
