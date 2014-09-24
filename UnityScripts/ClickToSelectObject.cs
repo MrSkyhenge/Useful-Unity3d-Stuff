@@ -4,7 +4,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class ClickToSelect : MonoBehaviour {
+public class ClickToSelectObject : MonoBehaviour {
 
   public Transform selectedTarget;
 
