@@ -1,3 +1,6 @@
+// Very simple script for top-down shooter-type movement. Gameobject will move horizontally and vertically with no
+// rotation. This code handles movement only.
+
 using UnityEngine;
 using System.Collections;
 
