@@ -1,0 +1,23 @@
+using UnityEngine;
+using System.Collections;
+
+public class ClickOnSomething : MonoBehaviour {
+	
+	// Update is called once per frame
+	void Update(){
+		if (Input.GetMouseButtonDown(0)) {
+			RaycastHit hitInfo = new RaycastHit();
+			bool hit = Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hitInfo);
+			if (hit) {
+				Debug.Log("Hit " + hitInfo.transform.gameObject.name);	// Displays the name of the gameobject
+				if (hitInfo.transform.gameObject.tag == "TAG")	{	// Specify tag
+					Debug.Log ("It's working!");	// Clicked on a gameobject with the right tag 
+				} else {
+					Debug.Log ("Nope!");	// Clicked on a gameobject with the wrong tag or no tag at all
+				}
+			} else {
+				Debug.Log("Hit nothing!");	// Clicked on empty space
+			}
+		} 
+	}
+}
