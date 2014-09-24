@@ -4,7 +4,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class Move : MonoBehaviour {
+public class TopDownShooterMovement : MonoBehaviour {
 
 	public float xSpeed = 10f;
 	public float zSpeed = 10f;
