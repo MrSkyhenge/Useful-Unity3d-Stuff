@@ -1,4 +1,4 @@
-// Created head-bobbing effect for FPS controllers. Originally posted on Unity Answers
+// Head-bobbing effect for FPS controllers. Originally posted on Unity Answers
 
 using UnityEngine;
 using System.Collections;
@@ -40,7 +40,4 @@ public class FPSHeadBob : MonoBehaviour {
 
  transform.localPosition = cSharpConversion;
  }
-
-
-
 }
