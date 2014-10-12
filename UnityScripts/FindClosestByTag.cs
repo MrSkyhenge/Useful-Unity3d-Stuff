@@ -1,5 +1,6 @@
 //Finds the closest object by tag. Code originally posted at
 //http://docs.unity3d.com/ScriptReference/GameObject.FindGameObjectsWithTag.html
+// Changed line 13 to "GameObject closest = null;" to clear error
 
 using UnityEngine;
 using System.Collections;
