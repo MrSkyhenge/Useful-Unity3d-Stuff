@@ -1,4 +1,5 @@
-//Finds the closest object by tag. Code originally posted on Unity Answers
+//Finds the closest object by tag. Code originally posted at
+//http://docs.unity3d.com/ScriptReference/GameObject.FindGameObjectsWithTag.html
 
 using UnityEngine;
 using System.Collections;
