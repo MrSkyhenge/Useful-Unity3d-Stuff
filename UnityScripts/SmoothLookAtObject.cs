@@ -4,7 +4,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class SmoothLookAt : MonoBehaviour {
+public class SmoothLookAtObject : MonoBehaviour {
 
 	public Transform target; //Transform to look at
 	public float rotSpeed; //Rotation speed
